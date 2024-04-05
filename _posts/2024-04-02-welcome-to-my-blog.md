@@ -1,6 +1,6 @@
 ---
 title: Welcome to My Blog!
-date: 2024-04-05 14:00:00
+date: 2024-04-05 14:00:00 +/-TTTT
 categories: [Blog, Lainnya]
 tags: [blog]     # TAG names should always be lowercase
 toc: false
