@@ -98,9 +98,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: "initial-as/blog" # <gh-username>/<repo>
-    repo_id: R_kgDOLpEZXQ
+    repo_id: "R_kgDOLpEZXQ"
     category: Announcements
-    category_id: DIC_kwDOLpEZXc4CeeRD
+    category_id: "DIC_kwDOLpEZXc4CeeRD"
     mapping: # optional, default to 'pathname'
     strict: '1'
     input_position: top # optional, default to 'bottom'
