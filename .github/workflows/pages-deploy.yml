@@ -61,16 +61,9 @@ jobs:
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
-      - name: Get global node ID
-        id: get-repo-id
-        uses: nvdaes/get-repository-id@v1
-        with:
-          repository: owner/repo
-      
-      - name: Print Output
-        id: output
-        run: echo "${{ steps.get-repo-id.outputs.repo-id }}"
-
+      - name: Get repository ID
+        uses: nvdaes/get-repository-id@v1.0.11
+            
   deploy:
     environment:
       name: github-pages
