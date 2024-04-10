@@ -11,4 +11,4 @@ Selamat datang di blog saya! Jika kamu sedang membaca tulisan ini, kemungkinan b
 
 Sebenarnya sudah lama saya ingin membuat blog ini, namun baru terealisasi sekarang. Saat masih berstatus sebagai mahasiswa S1 di [Jurusan Informatika USK](https://www.informatika.unsyiah.ac.id/) (tahun 2011 s.d. 2015), saya sempat aktif menulis artikel di blog pribadi [sektim-area.blogspot.com](https://sektim-area.blogspot.com). Namun entah mengapa, kebiasaan menulis di blog tersebut memudar setelah saya lulus.
 
-Sekarang saya sedang mencoba memulai kembali kebiasaan menulis. Blog ini akan saya isi dengan hal-hal yang berkaitan dengan pembelajaran, terutama materi untuk mata kuliah yang saya ampu, dan juga tentunya catatan *ngoprek*.
+Sekarang saya sedang mencoba memulai kembali kebiasaan menulis. Blog ini akan saya isi dengan hal-hal yang berkaitan dengan pembelajaran, terutama materi untuk mata kuliah yang saya ampu, dan juga tentunya catatan *ngoprek*. Cara membuat blog seperti ini bisa kamu baca [di sini]({% link _posts/2024-04-03-membuat-blog-gratis-dengan-github-pages-dan-jekyll.md %}).
