@@ -32,7 +32,7 @@ Situs web statis terdiri dari satu atau lebih halaman web HTML yang selalu dimua
 
 ### Situs Web Statis vs Dinamis
 - Situs web statis lebih sederhana dan cepat karena kontennya tetap dan tidak berubah, kecuali halaman itu sendiri diubah. Ia cocok untuk diterapkan pada situs web sederhana dengan konten yang tidak perlu sering diperbarui.
-- Sebaliknya, halaman web dinamis memungkinkan lebih banyak fleksibilitas dan interaktivitas. Ia dapat mengambil konten dari database, merespons masukan pengguna, dan menghasilkan halaman yang disesuaikan dengan cepat. Hal ini menjadikannya ideal untuk situs web dengan konten yang berubah atau interaktif, seperti situs e-commerce, media sosial, dan aplikasi web interaktif lainnya.
+- Sebaliknya, situs web dinamis memungkinkan lebih banyak fleksibilitas dan interaktivitas. Ia dapat mengambil konten dari database, merespons masukan pengguna, dan menghasilkan halaman yang disesuaikan dengan cepat. Hal ini menjadikannya ideal untuk situs web dengan konten yang berubah atau interaktif, seperti situs e-commerce, media sosial, dan aplikasi web interaktif lainnya.
 
 ### Kelebihan Situs Web Statis
 Situs web statis memiliki beberapa kelebihan yang menjadikannya pilihan yang efektif untuk beberapa jenis situs web, di antaranya:
