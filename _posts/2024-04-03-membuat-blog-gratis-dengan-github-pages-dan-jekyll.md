@@ -61,11 +61,11 @@ Dalam tutorial ini, saya menggunakan **Windows 11** versi 23H2. Untuk mempermuda
 1. Masuk ke [GitHub](https://github.com) lalu buka repositori [Chirpy Starter](https://github.com/cotes2020/chirpy-starter), klik tombol **<kbd>Use this template</kbd>** > **<kbd>Create a new repository</kbd>**, lalu beri nama repositori tersebut `USERNAME.github.io`, dimana `USERNAME` diganti dengan *username* GitHub kamu.
 2. *Clone* repositori tersebut ke komputermu. Caranya buka **File Explorer**, lalu arahkan ke direktori web yang akan dibuat, kemudian jalankan perintah berikut:
 ```console
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+git clone https://github.com/NAMA-PENGGUNA/REPOSITORI
 ```
-3. Selanjutnya kita perlu mempersiapkan berkas JavaScript, untuk itu kita harus menginstal [NodeJS](https://nodejs.org/).
-4. Buka **Command Prompt** di direktori web kita lalu jalankan perintah `bundle`.
-5. Sebelum memasukkan web yang telah kita buat ke GitHub Pages, kita bisa melihat pratinjau di _server_ lokal dengan menjalankan perintah ```bundle exec jekyll s```. Jika semuanya berjalan lancar, web yang telah kita buat bisa diakses melalui URL `localhost:4000`.
+Sesuaikan **`NAMA-PENGGUNA`** dan **`REPOSITORI`** dengan nama pengguna dan repositori GitHub kamu.
+3. Buka **Command Prompt** di direktori web kita lalu jalankan perintah `bundle`.
+4. Sebelum memasukkan web yang telah kita buat ke GitHub Pages, kita bisa melihat pratinjau di _server_ lokal dengan menjalankan perintah ```bundle exec jekyll s```. Jika semuanya berjalan lancar, web yang telah kita buat bisa diakses melalui URL `localhost:4000`.
 
 ### *Deploy* menggunakan GitHub Actions
 1. Bagi yang menggunakan sistem operasi Windows (abaikan langkah ini jika kamu menggunakan Linux), buka _root_ situs di Command Prompt dan jalankan perintah[^fn-nth-5]:
@@ -74,7 +74,7 @@ bundle lock --add-platform x86_64-linux
 ```
 2. Selanjutnya buka repositori GitHub kamu, pilih tab **Settings**. Kemudian klik **Pages** di menu navigasi sebelah kiri. Pada bagian **Source**, pilih [**GitHub Actions**](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) dari opsi *dropdown*.<br>![](/assets/img/posts/2024-04-09/github-actions.png)
 3. Sebelum melakukan _deployment_, periksa berkas `_config.yml`{: .filepath} dan pastikan `url` sudah dikonfigurasi dengan benar. Kamu juga bisa mengubah `avatar` (foto profile), `timezone` (zona waktu), `lang`(bahasa), ataupun pengaturan lainnnya di file tersebut.
-4. _Push commits_ apapun ke GitHub untuk memicu terjadinya _Actions_. Setelah itu kita bisa melihat alur _Build and Deploy_ yang sedang berjalan pada tab _Actions_ di repositori (jika terjadi masalah, kamu bisa memeriksa penyebabnya di sini). Setelah proses _build_ selesai, situs akan di-_deploy_ secara otomatis.
+4. _Push commits_ apapun ke GitHub untuk memicu terjadinya _Actions_. Setelah itu kita bisa melihat alur _Build and Deploy_ yang sedang berjalan pada tab _Actions_ di repositori (jika terjadi masalah, kamu bisa memeriksa penyebabnya di sini). Setelah proses _build_ selesai, situs akan di-*deploy* secara otomatis.
 
 ## Referensi
 [^fn-nth-1]: [Blogging Like a Hacker](https://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)
