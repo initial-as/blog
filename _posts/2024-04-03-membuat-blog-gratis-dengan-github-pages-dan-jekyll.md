@@ -6,7 +6,7 @@ tags: [github pages, jekyll] # TAG names should always be lowercase
 ---
 
 ## Apa itu GitHub Pages?
-Ada banyak penyedia layanan untuk meng-*host* situs web, salah satunya adalah GitHub Pages. **GitHub Pages adalah layanan hosting situs web statis** yang disediakan oleh GitHub (sebuah platform berbagi kode program) untuk para pengembang. GitHub Pages memungkinkan kita untuk meng-*host* file statis seperti HTML, CSS, JavaScript, gambar, dll. GitHub Pages juga memberikan subdomain dengan format .github.io untuk mengakses situs web yang kita buat, contohnya blog yang sedang kamu baca sekarang ([initial-as.github.io/blog](https://initial-as.github.io/blog)).
+Ada banyak penyedia layanan untuk *hosting* situs web, salah satunya adalah GitHub Pages. **GitHub Pages adalah layanan hosting situs web statis** yang disediakan oleh GitHub (sebuah platform berbagi kode program) untuk para pengembang. GitHub Pages memungkinkan kita untuk meng-*host* file statis seperti HTML, CSS, JavaScript, gambar, dll. GitHub Pages juga memberikan subdomain dengan format .github.io untuk mengakses situs web yang kita buat, contohnya blog yang sedang kamu baca sekarang ([initial-as.github.io/blog](https://initial-as.github.io/blog)).
 ### Keuntungan Menggunakan GitHub Pages
 -   **Gratis**: Kita bisa menggunakan GitHub Pages tanpa biaya.
 -   **Mudah**: Kita hanya perlu mengunggah file statis ke repositori GitHub, dan GitHub Pages akan meng-*host*-nya secara otomatis.
