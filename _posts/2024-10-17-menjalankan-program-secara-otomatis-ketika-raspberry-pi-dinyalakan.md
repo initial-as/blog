@@ -5,7 +5,6 @@ categories: [Blog, Tutorial, Catatan]
 tags: [raspberry pi] # TAG names should always be lowercase
 ---
 
-# Tutorial Menjalankan Program/Aplikasi GUI secara Otomatis di Raspberry Pi (Auto Start-up)
 Raspberry Pi adalah komputer kecil dan terjangkau yang sering digunakan untuk berbagai proyek DIY dan pengembangan perangkat lunak. Jika Anda memiliki aplikasi berbasis antarmuka pengguna grafis (GUI) yang ingin dijalankan secara otomatis saat Raspberry Pi menyala, tutorial ini akan memandu Anda langkah demi langkah.
 
 ## Langkah 1: Persiapan Awal
