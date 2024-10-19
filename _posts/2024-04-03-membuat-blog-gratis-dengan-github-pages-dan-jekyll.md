@@ -60,7 +60,7 @@ Dalam tutorial ini, saya menggunakan **Windows 11** versi 23H2. Untuk mempermuda
 ### Membuat GitHub Pages
 1. Masuk ke [GitHub](https://github.com) lalu buka repositori [Chirpy Starter](https://github.com/cotes2020/chirpy-starter), klik tombol **<kbd>Use this template</kbd>** > **<kbd>Create a new repository</kbd>**, lalu beri nama repositori tersebut `USERNAME.github.io`, dimana `USERNAME` diganti dengan *username* GitHub kamu.
 2. *Clone* repositori tersebut ke komputermu. Caranya buka **File Explorer**, lalu arahkan ke direktori web yang akan dibuat, kemudian jalankan perintah berikut:
-```console
+```bash
 git clone https://github.com/NAMA-PENGGUNA/REPOSITORI
 ```
 Sesuaikan **`NAMA-PENGGUNA`** dan **`REPOSITORI`** dengan nama pengguna dan repositori GitHub kamu.
@@ -69,7 +69,7 @@ Sesuaikan **`NAMA-PENGGUNA`** dan **`REPOSITORI`** dengan nama pengguna dan repo
 
 ### *Deploy* menggunakan GitHub Actions
 1. Bagi yang menggunakan sistem operasi Windows (abaikan langkah ini jika kamu menggunakan Linux), buka _root_ situs di Command Prompt dan jalankan perintah[^fn-nth-5]:
-```console
+```bash
 bundle lock --add-platform x86_64-linux
 ```
 2. Selanjutnya buka repositori GitHub kamu, pilih tab **Settings**. Kemudian klik **Pages** di menu navigasi sebelah kiri. Pada bagian **Source**, pilih [**GitHub Actions**](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) dari opsi *dropdown*.<br>![](/assets/img/posts/2024-04-09/github-actions.png)
