@@ -1,6 +1,6 @@
 ---
 title: Dasar-dasar Jaringan Komputer
-date: 2025-02-09 14:10:30 +0700
+date: 2025-02-09 10:30:00 +0700
 categories: [Materi Kuliah, Jaringan Komputer]
 tags: [materi, kuliah] # TAG names should always be lowercase
 ---
