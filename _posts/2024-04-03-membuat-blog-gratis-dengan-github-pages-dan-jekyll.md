@@ -31,7 +31,7 @@ Situs web statis terdiri dari satu atau lebih halaman web HTML yang selalu dimua
 5.  **Evolusi SSG**: Setelah Jekyll, banyak SSG lainnya muncul, membantu kategori  _static site generator_  berkembang pesat dalam pengembangan web. Terutama dengan munculnya konsep  **Jamstack**, SSG semakin relevan dan bermanfaat untuk membangun situs besar tanpa mengorbankan performa.[^fn-nth-3][^fn-nth-4]
 
 ### Situs Web Statis vs Dinamis
-- Situs web statis lebih sederhana dan cepat karena kontennya tetap dan tidak berubah, kecuali halaman itu sendiri diubah. Ia cocok untuk diterapkan pada situs web sederhana dengan konten yang tidak perlu sering diperbarui.
+- Situs web statis lebih sederhana dan cepat karena kontennya tetap dan tidak berubah, kecuali kode halaman itu sendiri diubah. Ia cocok untuk diterapkan pada situs web sederhana dengan konten yang tidak perlu sering diperbarui.
 - Sebaliknya, situs web dinamis memungkinkan lebih banyak fleksibilitas dan interaktivitas. Ia dapat mengambil konten dari database, merespons masukan pengguna, dan menghasilkan halaman yang disesuaikan dengan cepat. Hal ini menjadikannya ideal untuk situs web dengan konten yang berubah atau interaktif, seperti situs e-commerce, media sosial, dan aplikasi web interaktif lainnya.
 
 ### Kelebihan Situs Web Statis
@@ -50,12 +50,12 @@ Merujuk kepada situs resmi Jekyll [jekyllrb.com](https://jekyllrb.com/docs/), be
 Dalam tutorial ini, saya menggunakan **Windows 11** versi 23H2. Untuk mempermudah proses instalasi Jekyll di Windows, kita akan menggunakan RubyInstaller for Windows. Program ini mempermudah kita untuk menginstal bahasa pemrograman Ruby, lingkungan eksekusi, dokumentasi penting, dan banyak lagi.
 
 ### Instalasi Jekyll
-1. Unduh dan *install* versi Ruby+Devkit dari halaman [download RubyInstaller](https://rubyinstaller.org/downloads/). Gunakan opsi bawaan untuk instalasi.
-2. Dari opsi yang diberikan, pilih ***MSYS2 and MINGW development tool chain*** dengan cara mengetik angka 3, lalu tekan <kbd>enter</kbd>.<br>![](/assets/img/posts/2024-04-09/instalasi-RubyInstaller-1.png)<br>![](/assets/img/posts/2024-04-09/instalasi-RubyInstaller-2.png)
-3. Setelah proses instalasi selesai, klik tombol start pada Windows, lalu jalankan **Start Command Prompt with Ruby**. Ketik dan jalankan perintah `ridk install` pada jendela Command Prompt yang muncul, hal ini diperlukan untuk instalasi gems berikut dengan ekstensi bawaannya. Kamu bisa menemukan informasi lebih lanjut terkait hal ini di [dokumentasi RubyInstaller](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system). 
+1. Unduh dan *install* versi Ruby+Devkit dari halaman [download RubyInstaller](https://rubyinstaller.org/downloads/). Gunakan opsi bawaan untuk instalasi.<br>![](/assets/img/posts/2024-04-09/instalasi-RubyInstaller-2.png)
+2. Dari opsi yang diberikan, pilih ***MSYS2 and MINGW development tool chain*** dengan cara mengetik angka 3, lalu tekan <kbd>enter</kbd>.<br>![](/assets/img/posts/2024-04-09/instalasi-RubyInstaller-1.png)
+3. Setelah proses instalasi selesai, klik tombol start pada Windows, lalu jalankan **Start Command Prompt with Ruby**. Ketik dan jalankan perintah `ridk install` pada jendela Command Prompt yang muncul, hal ini diperlukan untuk instalasi gems berikut dengan ekstensi bawaannya. Informasi lebih lanjut terkait hal ini ada di [dokumentasi RubyInstaller](https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system). 
 4. Setelah proses instalasi selesai, tekan <kbd>enter</kbd>, lalu jalankan perintah `ridk enable`.
 5. Selanjutnya kita akan menginstal Jekyll dan Bundler dengan perintah `gem install jekyll bundler`
-6. Langkah terakhir pada tahap ini adalah memastikan Jekyll sudah terinstal dengan benar menggunakan perintah `jekyll -v`. Jika muncul versi Jekyll, artinya proses instalasi Jekyll sudah selesai. Di tahap selanjutnya kita akan membuat GitHub Pages.
+6. Langkah terakhir pada tahap ini adalah memastikan Jekyll sudah terinstal dengan benar menggunakan perintah `jekyll -v`. Jika muncul versi Jekyll, artinya proses instalasi Jekyll sudah selesai. Tahapan selanjutnya adalah membuat GitHub Pages.
 
 ### Membuat GitHub Pages
 1. Masuk ke [GitHub](https://github.com) lalu buka repositori [Chirpy Starter](https://github.com/cotes2020/chirpy-starter), klik tombol **<kbd>Use this template</kbd>** > **<kbd>Create a new repository</kbd>**, lalu beri nama repositori tersebut `USERNAME.github.io`, dimana `USERNAME` diganti dengan *username* GitHub kamu.
