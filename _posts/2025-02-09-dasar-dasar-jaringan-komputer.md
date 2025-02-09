@@ -2,9 +2,7 @@
 title: Dasar-dasar Jaringan Komputer
 date: 2025-02-09 10:30:00 +0700
 categories: [Materi Kuliah, Jaringan Komputer]
-tags: [materi, kuliah] # TAG names should always be lowercase
----
-# **Dasar-dasar Jaringan Komputer**
+tags: [materi kuliah] # TAG names should always be lowercase
 ---
 
 ## **1. Pengenalan Jaringan Komputer**
@@ -150,7 +148,7 @@ Model TCP/IP adalah model yang lebih sederhana dan praktis, terdiri dari 4 lapis
 
 ---
 
-## **1.5. Komponen Dasar Jaringan Komputer**
+## **5. Komponen Dasar Jaringan Komputer**
 
 ### **Perangkat Keras**
 1. **Router**:  
