@@ -2,7 +2,7 @@
 title: Dasar-dasar Jaringan Komputer
 date: 2025-02-09 10:30:00 +0700
 categories: [Materi Kuliah, Jaringan Komputer]
-tags: [materi kuliah] # TAG names should always be lowercase
+tags: [kuliah, jaringan komputer] # TAG names should always be lowercase
 ---
 
 ## **1. Pengenalan Jaringan Komputer**
