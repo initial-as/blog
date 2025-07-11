@@ -196,8 +196,8 @@ Untuk praktikum, kita memerlukan lingkungan pengembangan yang siap.
       * Pastikan Python terinstal di komputer Anda. Anda bisa mengunduhnya dari situs resmi: [https://www.python.org/downloads/](https://www.python.org/downloads/)
       * **Rekomendasi:** Untuk penggunaan akademis dan data science, seringkali disarankan untuk menginstal **Anaconda**. Anaconda adalah distribusi Python yang sudah dilengkapi dengan banyak pustaka penting dan lingkungan `conda` yang memudahkan manajemen paket. Unduh dari: [https://www.anaconda.com/products/individual](https://www.anaconda.com/products/individual)
 
-2.  **Menambahkan Python ke PATH Windows (Jika tidak mencentang saat instalasi atau menggunakan versi portabel):**
-    Jika Anda lupa mencentang opsi "Add Python to PATH" saat instalasi, atau jika Anda menginstal Python secara manual (misalnya dengan mengekstrak file zip), Anda perlu menambahkannya secara manual ke variabel lingkungan PATH. Ikuti langkah-langkah berikut:
+2.  **Menambahkan Python ke PATH Windows (Jika tidak mencentang *add to path* saat instalasi atau menggunakan versi portabel):**
+    Jika Anda tidak mencentang opsi "Add Python to PATH" saat instalasi, atau jika Anda menginstal Python secara manual (misalnya dengan mengekstrak file zip), Anda perlu menambahkannya secara manual ke variabel lingkungan PATH. Ikuti langkah-langkah berikut:
 
     * **Cari Lokasi Instalasi Python:**
         Biasanya Python terinstal di `C:\Users\NamaPengguna\AppData\Local\Programs\Python\PythonXX\` (di mana XX adalah versi Python, misal `Python39` atau `Python310`).
