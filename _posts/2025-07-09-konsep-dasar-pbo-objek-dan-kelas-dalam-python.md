@@ -320,7 +320,7 @@ Itu adalah beberapa kelebihan yang dimiliki PBO\!
 
 ## G. Tugas:
 
-1.  **Latihan Kelas Sederhana:**
+1.  **Tugas:**
       * Buatlah sebuah kelas bernama `Mahasiswa`.
       * Kelas ini harus memiliki atribut: `nama`, `nim`, `prodi`, dan `angkatan`.
       * Kelas ini harus memiliki metode:
