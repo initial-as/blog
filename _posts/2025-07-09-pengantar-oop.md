@@ -329,7 +329,7 @@ tampilkan_detail_buku(buku1)
 
 -----
 
-## F. Tugas:
+## F. Tugas
 
 1.  **Instalasi & Konfigurasi:** Pastikan Python dan IDE pilihan Anda (VS Code/PyCharm/Anaconda) sudah terinstal dan berfungsi dengan baik di laptop masing-masing.
 2.  **Latihan Dasar Python:** Buatlah sebuah program Python sederhana yang mengaplikasikan konsep dasar yang sudah dipelajari (variabel, tipe data, operator, `if-else`, `for`/`while` loop, fungsi). Program bisa berupa kalkulator sederhana, konversi suhu, atau game tebak angka.

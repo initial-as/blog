@@ -318,17 +318,15 @@ Itu adalah beberapa kelebihan yang dimiliki PBO\!
 
 -----
 
-## G. Tugas:
-
-1.  **Tugas:**
-      * Buatlah sebuah kelas bernama `Mahasiswa`.
-      * Kelas ini harus memiliki atribut: `nama`, `nim`, `prodi`, dan `angkatan`.
-      * Kelas ini harus memiliki metode:
-          * `__init__` (constructor) untuk menginisialisasi atribut-atribut di atas.
-          * `tampilkan_info()`: Metode yang mencetak semua informasi mahasiswa dalam format yang rapi.
-          * `ubah_prodi(prodi_baru)`: Metode yang dapat mengubah prodi mahasiswa.
-      * Buat minimal 3 objek `Mahasiswa` yang berbeda.
-      * Gunakan metode `tampilkan_info()` untuk setiap objek.
-      * Coba ubah prodi salah satu mahasiswa menggunakan `ubah_prodi()` dan tampilkan infonya lagi untuk memverifikasi perubahan.
+## G. Tugas
+* Buatlah sebuah kelas bernama `Mahasiswa`.
+* Kelas ini harus memiliki atribut: `nama`, `nim`, `prodi`, dan `angkatan`.
+* Kelas ini harus memiliki metode:
+    * `__init__` (constructor) untuk menginisialisasi atribut-atribut di atas.
+    * `tampilkan_info()`: Metode yang mencetak semua informasi mahasiswa dalam format yang rapi.
+    * `ubah_prodi(prodi_baru)`: Metode yang dapat mengubah prodi mahasiswa.
+* Buat minimal 3 objek `Mahasiswa` yang berbeda.
+* Gunakan metode `tampilkan_info()` untuk setiap objek.
+* Coba ubah prodi salah satu mahasiswa menggunakan `ubah_prodi()` dan tampilkan infonya lagi untuk memverifikasi perubahan.
 
 -----
