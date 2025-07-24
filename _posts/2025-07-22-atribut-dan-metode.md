@@ -359,4 +359,5 @@ Ini menunjukkan fleksibilitas dalam mendesain kelas dengan memilih jenis atribut
         * `format_mata_uang(nilai)`: Mengembalikan string nilai dalam format mata uang (misal: "Rp 10.000").
 * Buat minimal 3 objek `Produk` yang berbeda.
 * Lakukan berbagai operasi (tampilkan info toko, hitung harga jual, tambah/kurangi stok, ubah pajak) untuk menunjukkan penggunaan semua jenis atribut dan metode.
+
 -----
