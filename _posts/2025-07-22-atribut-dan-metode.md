@@ -221,7 +221,7 @@ Metode adalah fungsi yang didefinisikan di dalam kelas dan beroperasi pada data 
     print(f"Hasil kali 4 dan 2: {util.kali(4, 2)}") # Output: 8
     ```
 
-    **Kapan menggunakan yang mana? (Ringkasan Cepat)**
+    **Kapan menggunakan yang mana?**
 
       * **Metode Instansi:** Butuh akses ke data **objek** (`self`).
       * **Metode Kelas:** Butuh akses ke data **kelas** (`cls`) atau ingin membuat *constructor* alternatif.
@@ -342,22 +342,22 @@ Ini menunjukkan fleksibilitas dalam mendesain kelas dengan memilih jenis atribut
 -----
 
 ## D. Tugas
-
-* Buatlah sebuah kelas bernama `Produk`.
-* Kelas ini harus memiliki:
-    * **Atribut Instansi:** `nama_produk`, `harga`, `stok`.
-    * **Atribut Kelas:** `total_produk_terdaftar` (untuk melacak berapa total produk yang sudah dibuat), `pajak_persen` (misal: 10% atau 0.10).
-    * **Metode Instansi:**
-        * `__init__` (constructor) untuk `nama_produk`, `harga`, `stok`.
-        * `hitung_harga_jual()`: Mengembalikan harga jual produk setelah ditambahkan pajak (`harga + (harga * pajak_persen)`).
-        * `tambah_stok(jumlah)`: Menambah stok produk.
-        * `kurangi_stok(jumlah)`: Mengurangi stok produk (tambahkan validasi agar stok tidak minus).
-    * **Metode Kelas:**
-        * `info_toko()`: Menampilkan `total_produk_terdaftar` dan `pajak_persen` saat ini.
-        * `ubah_pajak(pajak_baru)`: Mengubah `pajak_persen` (atribut kelas).
-    * **Metode Statis:**
-        * `format_mata_uang(nilai)`: Mengembalikan string nilai dalam format mata uang (misal: "Rp 10.000").
-* Buat minimal 3 objek `Produk` yang berbeda.
-* Lakukan berbagai operasi (tampilkan info toko, hitung harga jual, tambah/kurangi stok, ubah pajak) untuk menunjukkan penggunaan semua jenis atribut dan metode.
+1. Latihan Atribut dan Metode
+    * Buatlah sebuah kelas bernama `Produk`.
+    * Kelas ini harus memiliki:
+        * **Atribut Instansi:** `nama_produk`, `harga`, `stok`.
+        * **Atribut Kelas:** `total_produk_terdaftar` (untuk melacak berapa total produk yang sudah dibuat), `pajak_persen` (misal: 10% atau 0.10).
+        * **Metode Instansi:**
+            * `__init__` (constructor) untuk `nama_produk`, `harga`, `stok`.
+            * `hitung_harga_jual()`: Mengembalikan harga jual produk setelah ditambahkan pajak (`harga + (harga * pajak_persen)`).
+            * `tambah_stok(jumlah)`: Menambah stok produk.
+            * `kurangi_stok(jumlah)`: Mengurangi stok produk (tambahkan validasi agar stok tidak minus).
+        * **Metode Kelas:**
+            * `info_toko()`: Menampilkan `total_produk_terdaftar` dan `pajak_persen` saat ini.
+            * `ubah_pajak(pajak_baru)`: Mengubah `pajak_persen` (atribut kelas).
+        * **Metode Statis:**
+            * `format_mata_uang(nilai)`: Mengembalikan string nilai dalam format mata uang (misal: "Rp 10.000").
+    * Buat minimal 3 objek `Produk` yang berbeda.
+    * Lakukan berbagai operasi (tampilkan info toko, hitung harga jual, tambah/kurangi stok, ubah pajak) untuk menunjukkan penggunaan semua jenis atribut dan metode.
 
 -----
