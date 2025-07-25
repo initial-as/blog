@@ -297,7 +297,7 @@ print(f"Gaji Budi setelah naik: Rp {p_budi.gaji:,}")
 p_budi.tampilkan_info()
 ```
 
-**Diskusi:**
+**Penjelasan:**
 
   * Perhatikan bagaimana `Manajer` dan `Programmer` tidak perlu mendefinisikan ulang `nama`, `id_karyawan`, dan `gaji`, karena mereka mewarisi dari `Karyawan`.
   * Metode `tampilkan_info()` di-override di kelas anak untuk menambahkan informasi spesifik mereka, tetapi mereka tetap memanggil `super().tampilkan_info()` untuk menampilkan informasi umum dari kelas `Karyawan`. Ini adalah praktik terbaik.
