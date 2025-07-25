@@ -1,13 +1,10 @@
 ---
 title: "PBO 6: Polimorfisme"
-date: 2025-07-24 09:00:00 +0700
+date: 2025-07-25 09:00:00 +0700
 categories: [Materi Kuliah, Pemrograman Berorientasi Objek (PBO)]
 tags: [kuliah, pbo] # TAG names should always be lowercase
 toc: true
 ---
-Tentu, mari kita siapkan materi untuk pertemuan ke-6. Setelah membahas Enkapsulasi dan Pewarisan, kita akan melangkah ke pilar PBO berikutnya: **Polimorfisme**. Ini adalah konsep yang sangat kuat untuk membuat kode yang fleksibel dan mudah diperluas.
-
------
 ## Tujuan Pembelajaran:
 
 Pada akhir pertemuan ini, mahasiswa diharapkan mampu:
