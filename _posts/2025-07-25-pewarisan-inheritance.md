@@ -1,5 +1,5 @@
 ---
-title: "PBO 5: Pewarisan (Inheritance)
+title: "PBO 5: Pewarisan (Inheritance)"
 date: 2025-07-25 08:00:00 +0700
 categories: [Materi Kuliah, Pemrograman Berorientasi Objek (PBO)]
 tags: [kuliah, pbo] # TAG names should always be lowercase
@@ -21,7 +21,7 @@ Pada akhir pertemuan ini, mahasiswa diharapkan mampu:
 
 ## A. Apa Itu Pewarisan (Inheritance)?
 
-Bayangkan silsilah keluarga. Anda mungkin mewarisi beberapa karakteristik (seperti warna rambut atau mata) dari orang tua Anda. Anda adalah versi yang lebih spesifik dari "manusia" yang mewarisi sifat-sifat umum manusia, tetapi Anda juga memiliki sifat unik Anda sendiri.
+Dalam silsilah keluarga, Anda mungkin mewarisi beberapa karakteristik (seperti warna rambut atau mata) dari orang tua Anda. Anda adalah versi yang lebih spesifik dari "manusia" yang mewarisi sifat-sifat umum manusia, tetapi Anda juga memiliki sifat unik Anda sendiri.
 
 Dalam PBO, **pewarisan (inheritance)** adalah mekanisme di mana sebuah kelas (disebut **kelas anak / *child class* / *subclass***) dapat mewarisi atribut dan metode dari kelas lain (disebut **kelas induk / *parent class* / *superclass* / *base class***).
 
