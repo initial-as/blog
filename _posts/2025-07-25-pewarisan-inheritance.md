@@ -304,3 +304,25 @@ p_budi.tampilkan_info()
   * Kita bisa memanggil metode spesifik (`kelola_tim`, `tulis_kode`) hanya pada objek dari kelas yang sesuai.
 
 -----
+
+### G. Tugas
+
+1.  **Latihan Pewarisan & Enkapsulasi: Sistem Produk Toko Online**
+    * Ambil kembali kelas `Produk` dari tugas pertemuan 4 Anda, yang sudah menerapkan enkapsulasi (getter/setter untuk `harga`, `stok`, dan `nama_produk` *read-only*).
+    * Buatlah dua kelas anak baru yang mewarisi dari `Produk`:
+        * `ProdukElektronik`:
+            * Memiliki atribut tambahan: `garansi_bulan` (integer).
+            * *Constructor*nya harus memanggil *constructor* `Produk` menggunakan `super()`.
+            * Memiliki metode baru: `info_garansi()` yang mencetak informasi garansi produk elektronik tersebut.
+            * *Override* metode `tampilkan_detail()` (jika ada, atau buat jika belum ada di `Produk`) untuk menambahkan informasi garansi.
+        * `ProdukPakaian`:
+            * Memiliki atribut tambahan: `ukuran` (misal: "S", "M", "L", "XL") dan `warna`.
+            * *Constructor*nya harus memanggil *constructor* `Produk` menggunakan `super()`.
+            * Memiliki metode baru: `info_pakaian()` yang mencetak ukuran dan warna pakaian.
+            * *Override* metode `tampilkan_detail()` untuk menambahkan informasi ukuran dan warna.
+    * Buat minimal dua objek dari masing-masing kelas anak (`ProdukElektronik` dan `ProdukPakaian`).
+    * Tampilkan detail lengkap dari setiap objek menggunakan metode `tampilkan_detail()` yang sudah di-override.
+    * Coba panggil metode spesifik dari masing-masing kelas anak (misal: `produk_elektronik.info_garansi()`, `produk_pakaian.info_pakaian()`).
+    * Demonstrasikan bagaimana enkapsulasi masih berfungsi (misalnya, coba ubah harga atau stok melalui properti/metode yang diwarisi, dan perhatikan validasinya).
+
+-----
