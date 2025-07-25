@@ -304,29 +304,3 @@ p_budi.tampilkan_info()
   * Kita bisa memanggil metode spesifik (`kelola_tim`, `tulis_kode`) hanya pada objek dari kelas yang sesuai.
 
 -----
-
-## G. Tugas
-
-1.  **Latihan Pewarisan & Enkapsulasi: Sistem Produk Toko Online**
-    * Ambil kembali kelas `Produk` dari tugas pertemuan 4 Anda, yang sudah menerapkan enkapsulasi (getter/setter untuk `harga`, `stok`, dan `nama_produk` *read-only*).
-    * Buatlah dua kelas anak baru yang mewarisi dari `Produk`:
-        * `ProdukElektronik`:
-            * Memiliki atribut tambahan: `garansi_bulan` (integer).
-            * *Constructor*nya harus memanggil *constructor* `Produk` menggunakan `super()`.
-            * Memiliki metode baru: `info_garansi()` yang mencetak informasi garansi produk elektronik tersebut.
-            * *Override* metode `tampilkan_detail()` (jika ada, atau buat jika belum ada di `Produk`) untuk menambahkan informasi garansi.
-        * `ProdukPakaian`:
-            * Memiliki atribut tambahan: `ukuran` (misal: "S", "M", "L", "XL") dan `warna`.
-            * *Constructor*nya harus memanggil *constructor* `Produk` menggunakan `super()`.
-            * Memiliki metode baru: `info_pakaian()` yang mencetak ukuran dan warna pakaian.
-            * *Override* metode `tampilkan_detail()` untuk menambahkan informasi ukuran dan warna.
-    * Buat minimal dua objek dari masing-masing kelas anak (`ProdukElektronik` dan `ProdukPakaian`).
-    * Tampilkan detail lengkap dari setiap objek menggunakan metode `tampilkan_detail()` yang sudah di-override.
-    * Coba panggil metode spesifik dari masing-masing kelas anak (misal: `produk_elektronik.info_garansi()`, `produk_pakaian.info_pakaian()`).
-    * Demonstrasikan bagaimana enkapsulasi masih berfungsi (misalnya, coba ubah harga atau stok melalui properti/metode yang diwarisi, dan perhatikan validasinya).
-
-2.  **Analisis Manfaat Pewarisan dalam Skala Lebih Besar:**
-    * Bayangkan Anda membangun sistem inventori untuk sebuah toko serba ada yang menjual ribuan jenis barang. Jenis barang tersebut sangat bervariasi: ada **Elektronik**, **Pakaian**, **Makanan**, **Peralatan Rumah Tangga**, dll. Setiap jenis barang memiliki atribut dan metode yang unik (misalnya, makanan punya `tanggal_kadaluarsa`, elektronik punya `daya_watt`). Namun, semua jenis barang memiliki atribut umum seperti `nama_produk`, `harga`, dan `stok`, serta metode umum seperti `tambah_stok()` dan `kurangi_stok()`.
-    * Jelaskan secara singkat (minimal 3-4 kalimat) bagaimana penerapan **pewarisan** dari kelas `Produk` yang sudah ada (dengan enkapsulasi) dapat membantu Anda mengelola kompleksitas sistem ini dibandingkan jika Anda membuat kelas terpisah untuk setiap jenis barang tanpa pewarisan sama sekali. Sebutkan setidaknya dua manfaat spesifik yang Anda dapatkan dari pewarisan dalam skenario ini.
-
------
