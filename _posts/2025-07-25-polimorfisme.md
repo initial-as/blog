@@ -1,5 +1,5 @@
 ---
-title: "PBO 6: Polimorfisme"
+title: "PBO 6 — Polimorfisme"
 date: 2025-07-25 08:30:00 +0700
 categories: [Materi Kuliah, Pemrograman Berorientasi Objek (PBO)]
 tags: [kuliah, pbo] # TAG names should always be lowercase

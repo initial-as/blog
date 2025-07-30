@@ -1,5 +1,5 @@
 ---
-title: "PBO 4: Enkapsulasi: Private dan Public"
+title: "PBO 4 — Enkapsulasi: Private dan Public"
 date: 2025-07-24 08:00:00 +0700
 categories: [Materi Kuliah, Pemrograman Berorientasi Objek (PBO)]
 tags: [kuliah, pbo] # TAG names should always be lowercase

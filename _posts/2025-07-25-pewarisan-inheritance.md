@@ -1,5 +1,5 @@
 ---
-title: "PBO 5: Pewarisan (Inheritance)"
+title: "PBO 5 — Pewarisan (Inheritance)"
 date: 2025-07-25 08:00:00 +0700
 categories: [Materi Kuliah, Pemrograman Berorientasi Objek (PBO)]
 tags: [kuliah, pbo] # TAG names should always be lowercase

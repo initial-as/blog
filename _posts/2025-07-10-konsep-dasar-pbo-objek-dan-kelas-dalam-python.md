@@ -1,5 +1,5 @@
 ---
-title: "PBO 2: Konsep Dasar PBO - Objek & Kelas dalam Python"
+title: "PBO 2 — Konsep Dasar PBO: Objek & Kelas dalam Python"
 date: 2025-07-10 17:00:00 +0700
 categories: [Materi Kuliah, Pemrograman Berorientasi Objek (PBO)]
 tags: [kuliah, pbo] # TAG names should always be lowercase

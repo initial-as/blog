@@ -1,5 +1,5 @@
 ---
-title: "PBO 1: Pengantar Pemrograman Berorientasi Objek (PBO) dan Python"
+title: "PBO 1 — Pengantar Pemrograman Berorientasi Objek (PBO) dan Python"
 date: 2025-07-09 14:00:00 +0700
 categories: [Materi Kuliah, Pemrograman Berorientasi Objek (PBO)]
 tags: [kuliah, pbo] # TAG names should always be lowercase

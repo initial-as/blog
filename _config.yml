@@ -14,9 +14,9 @@ timezone: Asia/Jakarta
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Aulia's Notes # the main title
+title: Catatan Aulia # the main title
 
-tagline: Ikatlah ilmu dengan menulisnya. # it will display as the sub-title
+tagline: "Jagalah ilmu dengan menulis." # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Blog pribadi Aulia Syarif Aziz.
