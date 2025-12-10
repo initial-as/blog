@@ -1,7 +1,7 @@
 ---
 title: Membuat Blog Gratis dengan GitHub Pages dan Jekyll
 date: 2024-04-09 11:00:00 +0700
-categories: [Blog, Tutorial]
+categories: [Tutorial, Jekyll]
 tags: [github pages, jekyll] # TAG names should always be lowercase
 ---
 

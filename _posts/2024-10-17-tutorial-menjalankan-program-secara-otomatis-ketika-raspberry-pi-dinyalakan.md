@@ -1,7 +1,7 @@
 ---
 title: Tutorial Menjalankan Program/Aplikasi GUI secara Otomatis di Raspberry Pi (Auto Start-up)
 date: 2024-10-17 11:00:00 +0700
-categories: [Blog, Tutorial, Catatan]
+categories: [Tutorial, Raspberry Pi, Catatan]
 tags: [raspberry pi] # TAG names should always be lowercase
 ---
 

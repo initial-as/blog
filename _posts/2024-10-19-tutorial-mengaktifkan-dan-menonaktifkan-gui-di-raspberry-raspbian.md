@@ -1,7 +1,7 @@
 ---
 title: Tutorial Mengaktifkan dan Menonaktifkan GUI pada Raspberry Pi OS (Raspbian)
 date: 2024-10-19 11:00:00 +0700
-categories: [Blog, Tutorial, Catatan]
+categories: [Tutorial, Raspberry Pi, Catatan]
 tags: [raspberry pi] # TAG names should always be lowercase
 ---
 
