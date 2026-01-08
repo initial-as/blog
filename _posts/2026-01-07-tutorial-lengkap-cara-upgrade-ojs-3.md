@@ -8,7 +8,7 @@ toc: true
 
 ## Pendahuluan
 
-Open Journal Systems (OJS) adalah perangkat lunak open-source yang banyak digunakan untuk mengelola jurnal ilmiah secara daring. Untuk menjaga keamanan, stabilitas, dan kompatibilitas sistem, **upgrade OJS secara berkala sangat disarankan**.
+Open Journal Systems (OJS) adalah perangkat lunak open-source yang banyak digunakan untuk mengelola jurnal ilmiah secara daring. Pada artikel sebelumnya, kita sudah membahas [cara untuk meningkatkan keamanan OJS](../tips-pengamanan-ojs-panduan-lengkap-mencegah-serangan-malware-cloacking-dan-peretasan), kali ini kita akan membahas **cara melakukan pembaruan/_upgrade_ OJS**. Hal ini sangat disarankan untuk menjaga keamanan, stabilitas, dan kompatibilitas sistem.
 
 Dalam ekosistem Open Journal Systems, PKP juga memperkenalkan konsep **LTS (Long Term Support)**. Versi LTS adalah versi OJS yang mendapatkan **dukungan pemeliharaan lebih lama** dibandingkan versi reguler.
 
@@ -22,7 +22,7 @@ Sebagai contoh, **OJS 3.3.x** dikategorikan sebagai **versi LTS** oleh PKP. Arti
 
 * Cocok untuk penggunaan jangka panjang
 * Aman untuk digunakan
-* Menjadi target upgrade yang direkomendasikan dari versi 3.2.x
+* Menjadi target upgrade yang direkomendasikan dari versi sebelumnya (salah satu jurnal yang saya kelola saat ini menggunakan versi 3.2.1)
 
 Sementara itu, versi non-LTS biasanya memiliki siklus rilis lebih cepat dengan fitur baru, namun masa dukungannya lebih singkat. Oleh karena itu, bagi pengelola jurnal yang tidak ingin sering melakukan upgrade, **menggunakan versi LTS adalah pilihan yang paling aman dan praktis**.
 
@@ -49,10 +49,11 @@ Beberapa prinsip penting terkait upgrade OJS:
 | :--------------------------- | :--------------- | :------ |
 | 3.2.x | 3.3.x | ✅ Langsung |
 | 3.1.x | 3.3.x | ✅ Langsung |
-| 2.4.x | 3.3.x | ❌ Tidak langsung (harus via 3.1 → 3.2) |
+| 2.4.x | 3.3.x | ❌ Tidak langsung (harus via 2.4.8-x → 3.2.1-x → 3.3 atau lebih) |
 
 > **Kesimpulan:**  
 > Jika Anda menggunakan **OJS 3.2.1**, maka **upgrade langsung ke OJS 3.3.0 didukung secara resmi**.
+{: .prompt-info }
 
 ---
 
@@ -66,6 +67,14 @@ Sebelum memulai proses upgrade, pastikan Anda telah melakukan **backup penuh**:
 - Akses ke **File Manager / FTP / cPanel**
 - Pastikan versi PHP & database kompatibel dengan OJS 3.3
 
+> **Kesalahan Umum yang Harus Dihindari:**<br>
+> Tidak melakukan backup<br>
+> Menggunakan patch, bukan full package<br>
+> Lupa menyalin `config.inc.php`<br>
+> Menonaktifkan maintenance sebelum upgrade database selesai<br>
+> Mengakses OJS saat file masih diganti
+{: .prompt-danger }
+
 ---
 
 ## Langkah 1 — Aktifkan Maintenance Mode
@@ -78,7 +87,7 @@ OJS **tidak memiliki maintenance mode bawaan**, sehingga kita perlu membuatnya s
 
 ### 1. Buat File Maintenance
 
-Buat file `maintenance.html` di root OJS (misalnya `public_html/maintenance.html`). Berikut contoh isinya:
+Buat file `maintenance.html` di root OJS (misalnya `public_html/maintenance.html`). Berikut contohnya:
 
 ```html
 <!DOCTYPE html>
@@ -119,15 +128,19 @@ RewriteRule ^.*$ /maintenance.html [R=302,L]
 
 **HTTP 302 (Temporary Redirect)** digunakan agar tidak berdampak buruk pada SEO.
 
-⚠️ **Pastikan rule maintenance berada di atas rule OJS.**
+> **Pastikan rule maintenance berada di atas rule OJS.**
+{: .prompt-warning }
 
 ---
 
 ## Langkah 2 — Unduh OJS 3.3.0
 
-Unduh **paket lengkap (full package)** OJS 3.3.0 dari situs resmi PKP.
+Unduh **paket lengkap (full package)** OJS 3.3.0 dari situs resmi PKP:
+[https://pkp.sfu.ca/software/ojs/download/](https://pkp.sfu.ca/software/ojs/download/)
 
-⚠️ Jangan gunakan *patch* untuk upgrade lintas minor version.
+
+> **Sebaiknya gunakan versi LTS** dan jangan gunakan *patch* untuk upgrade lintas minor version.
+{: .prompt-info }
 
 ---
 
@@ -153,7 +166,8 @@ Dari instalasi OJS 3.2.1 lama, **salin ke folder OJS baru**:
 | `files/`          | File artikel & submission    |
 | `plugins/themes/` | Jika menggunakan tema kustom |
 
-❌ Jangan menyalin folder `lib/`, `classes/`, `pages/`
+> Jangan menyalin folder `lib/`, `classes/`, `pages/`
+{: .prompt-danger }
 
 ---
 
@@ -168,7 +182,7 @@ Dari instalasi OJS 3.2.1 lama, **salin ke folder OJS baru**:
 
 Buka file `config.inc.php`, cari teks:
 
-```
+```php
 [general]
 
 ; Set this to On once the system has been installed
@@ -178,11 +192,8 @@ installed = On
 
 Ubah `installed = On` menjadi `installed = Off`
 
-Selanjutnya buka browser dan akses:
-
-```
-https://domainanda.com/index.php/index/install
-```
+Selanjutnya buka browser dan akses: 
+`https://domainanda.com/index.php/index/install`
 
 Pilih opsi **Upgrade an existing installation**, lalu ikuti wizard sampai selesai.
 
@@ -190,13 +201,7 @@ Pilih opsi **Upgrade an existing installation**, lalu ikuti wizard sampai selesa
 
 ## Langkah 7 — Periksa Permission Folder
 
-Pastikan folder berikut bisa ditulis oleh web server:
-
-```
-cache/     → 755 / 775
-public/    → 755
-files/     → 755 / 775
-```
+Pastikan folder `cache/`, `public/`, dan `files/` memiliki permission `755`. Hal ini untuk memastikan agar bisa folder tersebut bisa ditulis oleh web server.
 
 ---
 
@@ -206,7 +211,7 @@ files/     → 755 / 775
 2. Clear cache OJS
 3. Upgrade plugin dan periksa plugin yang tidak kompatibel
 4. Periksa dan update template email
-5. Cek tampilan jurnal & workflow editorial, pastikan semuanya sudah sesuai
+5. Cek tampilan jurnal & workflow editorial, pastikan semuanya sudah sesuai. Lakukan setidaknya satu kali uji coba proses editorial, mulai dari submit artikel sampai artikel diterbitkan.
 
 ---
 
@@ -218,16 +223,6 @@ Setelah upgrade berhasil:
 * Hapus file `maintenance.html` (opsional)
 
 Situs akan kembali normal.
-
----
-
-## Kesalahan Umum yang Harus Dihindari
-
-* ❌ Tidak melakukan backup
-* ❌ Menggunakan patch, bukan full package
-* ❌ Lupa menyalin `config.inc.php`
-* ❌ Menonaktifkan maintenance sebelum upgrade database selesai
-* ❌ Mengakses OJS saat file masih diganti
 
 ---
 
