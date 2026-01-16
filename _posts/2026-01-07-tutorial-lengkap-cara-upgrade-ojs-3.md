@@ -114,21 +114,23 @@ Edit file `.htaccess` di root OJS, lalu **tambahkan di bagian paling atas**:
 # ---------------------------------------
 # Maintenance Mode
 # ---------------------------------------
+
 RewriteEngine On
 
-# Allow maintenance page itself
+# Allow loading of the maintenance page and its assets
 RewriteCond %{REQUEST_URI} !maintenance\.html$
-
-# Allow static assets
 RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|jpeg|gif|svg|webp|ico)$
 
-# Redirect all requests
+# OPTIONAL: Allow access from admin IP (ganti dengan IPv4 atau IPv6 Anda)
+# RewriteCond %{REMOTE_ADDR} !=123.123.123.123
+
+# Redirect every request to maintenance.html
 RewriteRule ^.*$ /maintenance.html [R=302,L]
 ````
 
 **HTTP 302 (Temporary Redirect)** digunakan agar tidak berdampak buruk pada SEO.
 
-> **Pastikan rule maintenance berada di atas rule OJS.**
+> **Pastikan rule maintenance berada di atas rule OJS dan rule lainnya.**
 {: .prompt-warning }
 
 ---
