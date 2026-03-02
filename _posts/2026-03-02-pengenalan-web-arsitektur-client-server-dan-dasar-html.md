@@ -6,11 +6,7 @@ tags: [kuliah, web] # TAG names should always be lowercase
 toc: true
 ---
 
-Baik, berikut versi **modul resmi (bahasa akademik formal)** untuk Pertemuan 1 Mata Kuliah **Pemrograman Web Dasar (2 SKS Teori + 2 SKS Praktik)**.
-
----
-
-## Capaian Pembelajaran Pertemuan (Sub-CPMK)
+## Capaian Pembelajaran
 
 Setelah mengikuti perkuliahan ini, mahasiswa mampu:
 
@@ -478,7 +474,7 @@ Simpan file.
 
 ---
 
-## LANGKAH 4 – Menambahkan Konten Halaman Home
+### LANGKAH 4 – Menambahkan Konten Halaman Home
 
 Tambahkan isi berikut di dalam `<body>`:
 
@@ -518,10 +514,10 @@ Memberikan solusi teknologi yang efektif, efisien, dan berkualitas tinggi.
 
 Periksa:
 
-✔ Semua tag ditutup dengan benar
-✔ Indentasi rapi
-✔ Tidak ada kesalahan penulisan tag
-✔ Struktur lengkap (DOCTYPE, html, head, body)
+- Semua tag ditutup dengan benar ✔
+- Indentasi rapi ✔
+- Tidak ada kesalahan penulisan tag ✔
+- Struktur lengkap (DOCTYPE, html, head, body) ✔
 
 ---
 
