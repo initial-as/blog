@@ -1,6 +1,6 @@
 ---
 title: "PWD 2 - Praktik Elemen HTML Lanjutan dan Navigasi Halaman Web"
-date: 2026-03-02 22:00:00 +0700
+date: 2026-03-02 22:30:00 +0700
 categories: [Materi Kuliah, Pemrograman Web Dasar]
 tags: [kuliah, web] # TAG names should always be lowercase
 toc: true
