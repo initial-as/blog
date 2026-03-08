@@ -10,7 +10,7 @@ Berikut **Modul Praktikum Tahap 2 Proyek** dengan **struktur yang sama seperti M
 
 ---
 
-## B. Tujuan Praktikum
+## A. Tujuan Praktikum
 
 Setelah menyelesaikan praktikum ini, mahasiswa mampu:
 
