@@ -250,7 +250,7 @@ Tambahkan juga link menuju halaman tersebut pada menu navigasi.
 
 ---
 
-# G. Refleksi Praktikum
+## G. Refleksi Praktikum
 
 Jawab pertanyaan berikut secara singkat:
 
@@ -260,9 +260,7 @@ Jawab pertanyaan berikut secara singkat:
 
 ---
 
-# H. Output yang Harus Dikumpulkan
-
-Mahasiswa mengumpulkan:
+## H. Output yang Harus Dikumpulkan
 
 Mahasiswa mengumpulkan laporan praktikum yang menampilkan:
 
