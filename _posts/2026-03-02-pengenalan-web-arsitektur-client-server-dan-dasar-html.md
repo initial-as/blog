@@ -171,7 +171,7 @@ Web menggunakan protokol komunikasi bernama HTTP (HyperText Transfer Protocol).
 * 500 Internal Server Error → Kesalahan server
 * 301 Redirect → Pengalihan halaman
 
-Pemahaman status code penting dalam proses debugging.
+Pemahaman status code penting dalam proses debugging. Kode status HTTP lainnya dapat dilihat di web [http.cat](https://http.cat/).
 
 ---
 

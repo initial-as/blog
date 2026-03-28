@@ -291,16 +291,6 @@ Form yang baik harus:
 
 ---
 
-## 8. Kesalahan Umum dalam Form
-
-❌ Tidak menggunakan atribut `name`
-❌ Tidak menggunakan label
-❌ Tidak validasi input
-❌ Struktur form tidak rapi
-❌ Penggunaan method yang tidak sesuai
-
----
-
 ## Rangkuman
 
 Pada pertemuan ini telah dipelajari:
