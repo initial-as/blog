@@ -304,7 +304,7 @@ Contoh ini menunjukkan bagaimana elemen HTML dapat digunakan secara terintegrasi
 
 ---
 
-## D. Rangkuman
+## Rangkuman
 
 Pada pertemuan ini telah dipelajari beberapa elemen HTML lanjutan yang penting dalam pengembangan web, yaitu:
 

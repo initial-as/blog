@@ -6,10 +6,6 @@ tags: [kuliah, web] # TAG names should always be lowercase
 toc: true
 ---
 
-Berikut **Modul Praktikum Tahap 2 Proyek** dengan **struktur yang sama seperti Modul Praktikum Tahap 1**, sehingga konsisten untuk digunakan sebagai rangkaian modul praktikum mata kuliah **Pemrograman Web Dasar**.
-
----
-
 ## A. Tujuan Praktikum
 
 Setelah menyelesaikan praktikum ini, mahasiswa mampu:
@@ -252,7 +248,7 @@ Tambahkan juga link menuju halaman tersebut pada menu navigasi.
 
 ## G. Refleksi Praktikum
 
-Jawab pertanyaan berikut secara singkat:
+Jawablah pertanyaan berikut:
 
 1. Apa fungsi elemen `<a>` dalam HTML?
 2. Mengapa navigasi harus konsisten pada setiap halaman website?
@@ -268,11 +264,7 @@ Mahasiswa mengumpulkan laporan praktikum yang menampilkan:
 2. Screenshot tampilan di web browser.
 3. Jawaban dari soal refleksi di atas.
 
-Format pengumpulan:
-
-```
-Nama_NIM_Pertemuan2.zip
-```
+Format pengumpulan: PDF, Microsoft Word, atau Google Docs
 
 ---
 

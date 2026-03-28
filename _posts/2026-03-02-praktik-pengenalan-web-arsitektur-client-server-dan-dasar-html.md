@@ -176,7 +176,7 @@ Mahasiswa WAJIB:
 
 * Menggunakan huruf kecil pada tag
 * Menggunakan indentasi konsisten (2 atau 4 spasi)
-* Tidak menggunakan inline style
+* Tidak menggunakan inline style (CSS)
 * Tidak menghapus struktur dasar HTML5
 * Menyimpan file dengan ekstensi `.html`
 
@@ -218,3 +218,9 @@ Mahasiswa mengumpulkan laporan praktikum yang menampilkan:
 1. Kode file `index.html`
 2. Screenshot tampilan di web browser.
 3. Jawaban dari soal refleksi di atas.
+
+Format pengumpulan: PDF, Microsoft Word, atau Google Docs
+
+---
+
+Tahap berikutnya akan menambahkan **gambar dan link navigasi** pada website.
