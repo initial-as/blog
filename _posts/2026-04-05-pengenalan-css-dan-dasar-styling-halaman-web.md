@@ -27,8 +27,8 @@ Namun, HTML hanya berfungsi untuk menyusun struktur konten. Tanpa adanya pengatu
 
 Untuk mengatasi hal tersebut, digunakan CSS (Cascading Style Sheets), yaitu bahasa yang digunakan untuk mengatur tampilan dan desain halaman web.
 
-![Ilustrasi CSS](https://d2dkqamqz2k831.cloudfront.net/posts/338-1733217432633.jpg "Ilustrasi CSS"){: .w-50}
-_Ilustrasi CSS<br>[(Sumber)](https://goldenowl.asia/blog/difference-between-html-css-and-javascript)_
+![Ilustrasi CSS](https://miro.medium.com/1*KRq7jQOUdQsHNsZa72XcDw.jpeg "Ilustrasi CSS"){: .w-50}
+_Ilustrasi CSS<br>[(Sumber)](https://medium.com/@anasansari157/what-the-heck-is-html-css-28147821ee8a)_
 
 ---
 
@@ -267,10 +267,15 @@ Box model adalah konsep penting dalam CSS yang menjelaskan bagaimana elemen dita
 
 ### 7.1 Komponen Box Model
 
-1. Content → isi
-2. Padding → jarak dalam
-3. Border → garis pembatas
-4. Margin → jarak luar
+Elemen HTML dianggap sebagai sebuah kotak dengan beberapa elemen:
+
+1. Content → Isi konten, bisa berupa teks, gambar, atau elemen lainnya.
+2. Padding → Jarak dalam (dari border ke konten)
+3. Border → Garis pembatas (terletak di antara padding dan margin).
+4. Margin → Jarak luar sampai ke elemen lain.
+
+![Ilustrasi Konsep Box Model](https://user-images.githubusercontent.com/2182637/46847224-f8a23e80-ce2e-11e8-80d6-0ca62a1871a7.png "Ilustrasi Konsep Box Model"){: .w-50}
+_Ilustrasi Konsep Box Model<br>[(Sumber)](https://github.com/alexreardon/css-box-model)_
 
 ---
 
@@ -278,20 +283,38 @@ Box model adalah konsep penting dalam CSS yang menjelaskan bagaimana elemen dita
 
 ```css
 div {
-    margin: 10px;
-    padding: 15px;
-    border: 1px solid black;
+    margin: 50px 30px;
+    padding: 50px 20px;
+    border: 5px solid black;
 }
 ```
 
----
+Kode di atas akan menampilkan elemen div dengan:
+- margin atas dan bawah 50px
+- margin kiri dan kanan 20px
+- padding atas dan bawah 50px
+- padding kiri dan kanan 20px
+- border setebal 5px berwarna hitam solid
 
-### 7.3 Ilustrasi Konsep
+![Contoh Box Model](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/18sfy7anxl7uj5soub2i.png "Contoh Box Model"){: .w-50}
+_Contoh Box Model<br>[(Sumber)](https://dev.to/magsimuhammadessa/a-beginners-guide-to-the-css-box-model-4hc5)_
 
-Elemen HTML dianggap sebagai sebuah kotak:
+Cara penulissan lain menggunakan selector yang lebih spesifik:
 
-![Ilustrasi Konsep Box Model](https://user-images.githubusercontent.com/2182637/46847224-f8a23e80-ce2e-11e8-80d6-0ca62a1871a7.png "Ilustrasi Konsep Box Model"){: .w-50}
-_Ilustrasi Konsep Box Model<br>[(Sumber)](https://github.com/alexreardon/css-box-model)_
+```css
+div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    border: 5px solid black;
+}
+```
 
 ---
 

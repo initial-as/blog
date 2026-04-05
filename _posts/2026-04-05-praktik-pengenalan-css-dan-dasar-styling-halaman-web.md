@@ -274,7 +274,17 @@ button {
 
 ---
 
-## G. Output yang Harus Dikumpulkan
+# G. Refleksi Praktikum
+
+Jawab pertanyaan berikut:
+
+1. Apa perbedaan CSS internal dan eksternal?
+2. Apa fungsi selector dalam CSS?
+3. Mengapa CSS penting dalam pengembangan web?
+
+---
+
+## H. Output yang Harus Dikumpulkan
 
 Mahasiswa mengumpulkan laporan praktikum yang menampilkan:
 
@@ -287,14 +297,4 @@ Format pengumpulan: PDF, Microsoft Word, atau Google Docs
 
 ---
 
-# J. Refleksi Praktikum
-
-Jawab pertanyaan berikut:
-
-1. Apa perbedaan CSS internal dan eksternal?
-2. Apa fungsi selector dalam CSS?
-3. Mengapa CSS penting dalam pengembangan web?
-
----
-
-Tahap berikutnya akan menggunakan layout moderen berbasis flexbox.
+Tahap berikutnya akan menggunakan layout modern berbasis flexbox.
