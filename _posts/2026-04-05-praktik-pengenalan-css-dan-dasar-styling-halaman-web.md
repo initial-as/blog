@@ -255,7 +255,7 @@ Tambahkan:
 
     ```css
     input, textarea, select {
-        width: 100%;
+        width: 98%;
         padding: 8px;
         margin: 5px 0;
     }

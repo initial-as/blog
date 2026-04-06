@@ -241,10 +241,10 @@ Tambahkan:
 
 2. Gunakan atribut:
 
-```html
-<input type="date">
-<input type="tel">
-```
+    ```html
+    <input type="date">
+    <input type="tel">
+    ```
 
 3. Tambahkan placeholder pada semua input
 
