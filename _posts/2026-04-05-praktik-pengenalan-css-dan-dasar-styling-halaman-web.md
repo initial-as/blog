@@ -245,32 +245,37 @@ Tambahkan:
 
 1. Efek hover pada menu:
 
-```css
-nav a:hover {
-    color: yellow;
-}
-```
+    ```css
+    nav a:hover {
+        color: yellow;
+    }
+    ```
 
 2. Styling form:
 
-```css
-input, textarea, select {
-    width: 100%;
-    padding: 8px;
-    margin: 5px 0;
-}
-```
+    ```css
+    input, textarea, select {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        width: auto;
+    }
+    ```
 
 3. Tombol lebih menarik:
 
-```css
-button {
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    border: none;
-}
-```
+    ```css
+    button {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border: none;
+    }
+    ```
 
 ---
 
