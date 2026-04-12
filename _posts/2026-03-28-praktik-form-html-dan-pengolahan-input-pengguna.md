@@ -222,11 +222,11 @@ Lakukan pengujian:
 
 Mahasiswa wajib memastikan:
 
-✔ Menggunakan atribut `name` pada setiap input
-✔ Menggunakan label untuk setiap field
-✔ Menggunakan validasi HTML5
-✔ Struktur form rapi dan mudah dibaca
-✔ Navigasi konsisten di semua halaman
+- Menggunakan atribut `name` pada setiap input
+- Menggunakan label untuk setiap field
+- Menggunakan validasi HTML5
+- Struktur form rapi dan mudah dibaca
+- Navigasi konsisten di semua halaman
 
 ---
 
