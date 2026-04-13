@@ -272,7 +272,7 @@ Setelah praktikum ini, mahasiswa memiliki:
 Mahasiswa mengumpulkan laporan praktikum yang menampilkan:
 
 1. Kode file `style.css` yang telah diperbarui.
-2. Screenshot tampilan halaman daftar ketika diakses di web browser.
+2. Screenshot tampilan halaman beranda/layanan ketika diakses di web browser.
 3. Penjelasan mengenai praktikum yang telah dikerjakan.
 4. Jawaban dari soal refleksi di atas.
 
