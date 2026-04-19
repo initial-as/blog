@@ -53,20 +53,20 @@ Mahasiswa wajib menyiapkan:
 
 3. Proyek dari **Praktikum Tahap 2**
 
-Struktur proyek sebelumnya:
+    Struktur proyek sebelumnya:
 
-```
-web-company-profile/
-│
-├── index.html
-├── profil.html
-├── layanan.html
-│
-└── assets/
-    ├── images/
-    ├── css/
-    └── js/
-```
+    ```
+    web-company-profile/
+    │
+    ├── index.html
+    ├── profil.html
+    ├── layanan.html
+    │
+    └── assets/
+        ├── images/
+        ├── css/
+        └── js/
+    ```
 
 ---
 

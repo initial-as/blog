@@ -52,16 +52,16 @@ Mahasiswa wajib menyiapkan:
 
 3. Proyek dari **Praktikum Tahap 1**
 
-Struktur proyek sebelumnya:
+    Struktur proyek sebelumnya:
 
-```
-web-company-profile/
-│
-├── index.html
-└── assets/
-    ├── css/
-    └── js/
-```
+    ```
+    web-company-profile/
+    │
+    ├── index.html
+    └── assets/
+        ├── css/
+        └── js/
+    ```
 
 ---
 

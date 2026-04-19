@@ -53,22 +53,22 @@ Mahasiswa wajib menyiapkan:
 
 3. Proyek dari **Praktikum Tahap 4**
 
-Struktur proyek:
+    Struktur proyek:
 
-```
-web-company-profile/
-│
-├── index.html
-├── profil.html
-├── layanan.html
-├── daftar.html
-│
-└── assets/
-    ├── images/
-    ├── css/
-    │   └── style.css
-    └── js/
-```
+    ```
+    web-company-profile/
+    │
+    ├── index.html
+    ├── profil.html
+    ├── layanan.html
+    ├── daftar.html
+    │
+    └── assets/
+        ├── images/
+        ├── css/
+        │   └── style.css
+        └── js/
+    ```
 
 ---
 
