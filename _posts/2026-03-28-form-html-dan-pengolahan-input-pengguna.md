@@ -309,5 +309,5 @@ Form merupakan komponen penting dalam pengembangan web karena menjadi dasar inte
 ## Referensi
 
 * Duckett, J. (2011). *HTML and CSS: Design and Build Websites*.
-* [MDN Web Docs.](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [W3Schools HTML Tutorial.](https://www.w3schools.com/html/)
+* [Mozilla Developer Network (MDN) Web Docs. HTML Guide.](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [W3Schools. HTML Tutorial.](https://www.w3schools.com/html/)
