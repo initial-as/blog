@@ -53,23 +53,23 @@ Mahasiswa wajib menyiapkan:
 
 3. Proyek dari **Praktikum Tahap 6**
 
-Pastikan struktur proyek:
+    Pastikan struktur proyek:
 
-```text
-web-company-profile/
-│
-├── index.html
-├── profil.html
-├── layanan.html
-├── daftar.html
-│
-└── assets/
-    ├── images/
-    ├── css/
-    │   └── style.css
-    └── js/
-        └── script.js
-```
+    ```text
+    web-company-profile/
+    │
+    ├── index.html
+    ├── profil.html
+    ├── layanan.html
+    ├── daftar.html
+    │
+    └── assets/
+        ├── images/
+        ├── css/
+        │   └── style.css
+        └── js/
+            └── script.js
+    ```
 
 ---
 
